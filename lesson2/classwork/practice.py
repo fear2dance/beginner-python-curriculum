@@ -3,13 +3,14 @@
 # Calculate and print how many decades old they are, rounded to the nearest whole number.
 age = int (input("what is your age?"))
 decades_old = age // 10 
-print("You are about decades_ old,"decades old.")
+print
 
 
 # Problem 2
 # Ask the user to enter a number.
 # Print the result of multiplying that number by 5.
-num = int (input(" Enter"))
+
+
 
 
 # Problem 3
