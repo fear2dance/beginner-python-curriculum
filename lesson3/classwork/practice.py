@@ -1,7 +1,9 @@
 # Problem 1
 # Ask the user to enter their height in centimeters.
 # Print "Tall" if the height is greater than 170, otherwise print "Short".
+hight = int (input( "Enter your height"))
 
+if hight
 
 
 # Problem 2
