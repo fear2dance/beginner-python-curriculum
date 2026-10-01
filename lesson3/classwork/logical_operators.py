@@ -7,7 +7,7 @@ else:
     print("Sorry you cant't enter")
 
 has_pass = input("Do you have a pass? (yes/no)")
-has-coins = input("Do you have a coins to pay? (yes/no)")
+has_coins = input("Do you have a coins to pay? (yes/no)")
 
 if has_pass or has_coins == "yes":
     print("You can ride the bus.")
