@@ -7,7 +7,7 @@ score2 = int(input( "What is your score on your second test?"))
 if (score >= 50 and score2 >= 50):
     print("You passed both!")     
 else:
-    print("You did not pass at least one")
+    print("You failed at least one")
                   
 
 
@@ -32,7 +32,7 @@ else:
 # If the number is NOT between 1 and 10 (inclusive), print "Out of range."
 # Otherwise, print "In range."
 number = int(input( "Please enter a number"))
-if (number == 1-10):
+if (number >= 1 and number <= 10 ):
     print("In range.")
 else:
     print("Out of range.")
