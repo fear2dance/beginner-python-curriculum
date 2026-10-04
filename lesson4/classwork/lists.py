@@ -37,11 +37,14 @@ index_of_blue = colors.index("blue")
 # Error: finding index of item not in list
 # colors.index("pink")
 
-#counts how many times a value appears in a list: blue_count = colors.count("blue")
+#counts how many times a value appears in a list: 
+blue_count = colors.count("blue")
 
-#to sort: colors.sort()
+#to sort: 
+colors.sort()
 
-#to reverse: colors.reverse()
+#to reverse: 
+colors.reverse()
 
 colors = ["maroon", "green", "blue", "yellow"]
 
