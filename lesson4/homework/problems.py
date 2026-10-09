@@ -4,12 +4,9 @@ import random
 # Create a list of 3 operating systems.
 # Print the last one using len().
 # Then reverse the list and print it.
-osList = ["Windows", "Mac", "Linux", "iOS"]
-print(len(osList))
-l = (len (osList)) #=4 
-print(l)
+osList = ["Windows", "Mac", "Linux"]
+l = (len (osList)) 
 print(osList[l - 1])
-
 osList.reverse()
 print("after reverse:", osList)
 # Problem 2
@@ -17,14 +14,10 @@ print("after reverse:", osList)
 # Print the second subject.
 # Then sort them alphabetically and print the result.
 schoolSubj = ["English Language Arts", "Mathematics", "World History", "Science"]
-print(len(schoolSubj))
 l = (len (schoolSubj))
-print(schoolSubj[l - 3])
-
+print(schoolSubj[1])
 schoolSubj.sort()
 print("After sort:", schoolSubj)
-
-
 
 # Problem 3 
 # Create a list of 5 error codes.
@@ -52,3 +45,9 @@ print(pLanguages)
 # Print the one in the middle using len().
 # Then remove the first password in the list and print it.
 passW = ["459060","123456","000000","0122345","333333","111111"]
+print(len(passW))
+l = (len(passW))
+print(passW[l//2])
+
+passW.pop(0)
+print("Pass list:", passW)

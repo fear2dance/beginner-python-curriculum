@@ -29,7 +29,9 @@ colors.remove("green")
 popped_color = colors.pop()
 
 #to remove and know what you removed: 
+print("colors", colors)
 popped_color_at_index = colors.pop(1)
+print("popped_color_at_index:", popped_color_at_index)
 
 #searches for a value in a list and tells you where it is: 
 index_of_blue = colors.index("blue")
